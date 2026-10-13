@@ -8,7 +8,7 @@ GenRelay is a generative media API: one key and one OpenAI-compatible base URL (
 
 ## How to call it
 
-- Video and image generation: use the Python SDK (`pip install genrelay`) or the MCP server (`npx -y genrelay-mcp`). Both read `GENRELAY_API_KEY`.
+- Video and image generation: use the Python SDK (`pip install genrelay`), the JS/TS SDK (`npm install genrelay`) or the MCP server (`npx -y genrelay-mcp`). Both read `GENRELAY_API_KEY`.
 - Chat and image edits: point the official `openai` SDK at `https://genrelay.ai/v1`. See `python/openai_compat.py`.
 - Video jobs are asynchronous: submit, poll, download. `client.videos.generate(...)` does all three; `create` + `wait` gives you control.
 
@@ -23,4 +23,5 @@ GenRelay is a generative media API: one key and one OpenAI-compatible base URL (
 - Docs: https://genrelay.ai/docs
 - Pricing: https://genrelay.ai/pricing
 - Python SDK: https://github.com/gaoruitech/genrelay-python
+- JS/TS SDK: https://github.com/gaoruitech/genrelay-js
 - MCP server: https://github.com/gaoruitech/genrelay-mcp
