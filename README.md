@@ -2,6 +2,17 @@
 
 Runnable examples for [GenRelay](https://genrelay.ai/?utm_source=github&utm_medium=readme&utm_campaign=genrelay-examples), a generative media API for video and image models.
 
+## Sample outputs
+
+Prompts in the same style as the examples. Images are 1280x720.
+
+| | |
+| --- | --- |
+| ![Neon fox running through a rainy city](images/01_fox_rainy_city.jpg) | ![Lighthouse at dusk](images/02_lighthouse_dusk.jpg) |
+| *a neon fox running through a rainy city at night* | *a lighthouse at dusk* |
+| ![Robot barista in a cafe](images/03_robot_cafe.jpg) | ![Astronaut in a bioluminescent forest](images/04_astronaut_forest.jpg) |
+| *a robot barista in a cafe* | *an astronaut in a bioluminescent forest* |
+
 ## What is inside
 
 | Path | What it shows |
